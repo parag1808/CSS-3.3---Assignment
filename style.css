@@ -1,0 +1,97 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+
+#main-container{
+	width:600px;
+	background:url(bg.jpg) no-repeat 0px 0px;
+	padding:10px;
+	margin:0 auto;
+	box-sizing: border-box;
+
+}
+#myForm h3{
+	font-size:16px;
+	font-family:"Myriad Pro",arial;
+	color:#fff;
+
+}
+
+.input-container{
+	background:url(bg-container.png) repeat 0px 0px;
+	border-radius:5px;
+	padding:10px;
+	border:1px solid #fff;
+	margin-top:5px;
+	font-family:"Myriad Pro",arial;
+}
+
+.input-container label{
+	width:120px;
+	float:left;
+	font-size:14px;
+	font-family:"Myriad Pro",arial;
+	color:#000;
+	margin-top:5px;
+
+}
+
+.input-container input{
+	width:250px;
+	float:left;
+	padding:5px;
+	font-size:14px;
+	font-family:"Myriad Pro",arial;
+	color:#000;
+
+
+}
+
+.input-container textarea{
+	
+	float:left;
+	padding:5px;
+	font-size:14px;
+	font-family:"Myriad Pro",arial;
+	color:#000;
+
+
+}
+
+.input-container input[type="radio"]{
+	
+	float:none;
+	width:15px;
+	text-align:left;
+	margin-left:20px;
+
+
+
+}
+
+.padR5{
+	padding-right:5px;
+}
+
+input[type="submit"]{
+	width:80px;
+	padding:6px;
+	background:#0f0740;
+	margin:20px auto;
+	color:#ffffff;
+	display:block;
+	border:none;
+	border-radius:8px;
+
+}

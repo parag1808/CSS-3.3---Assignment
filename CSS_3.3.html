@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		<meta charset="UTF-8">
+			<title>CSS Assignment - CSS 3.2</title>
+			<link rel="stylesheet" href="style.css" />
+
+		</head>
+
+		<body>
+			<div id="main-container">
+				<form id="myForm" name="myForm" method="POST" action="submit.php">
+					<h3>Step1: Your Details</h3>
+					<div class="input-container clearfix" >
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="First and Last Name"/>
+					</div>
+					<div class="input-container clearfix" >
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@domain.com"/>
+					</div>
+					<div class="input-container clearfix" >
+						<label for="phone">Phone</label>
+						<input type="text" id="phone" name="phone" placeholder="eg: 333333333333"/>
+					</div>
+					<h3>Step2: Delivery Address</h3>
+					<div class="input-container clearfix" >
+						<label for="address">Address</label>
+						<textarea id="address" name="address" rows="4" cols="40"></textarea>
+					</div>
+					<div class="input-container clearfix" >
+						<label for="PhoneCode">Phone Code</label>
+						<input type="text" id="PhoneCode" name="PhoneCode" />
+					</div>
+					<div class="input-container clearfix" >
+						<label for="country">Country</label>
+						<input type="text" id="country" name="country" />
+					</div>
+					<h3>Step3: Card Details</h3>
+					<div class="input-container clearfix" >
+						Card Type <br/><br/>
+						<span><input type="radio" name="cardType" id="cardType" value="visa"><img src="visa.png" class="padR5"/>Visa</span>
+						<span><input type="radio" name="cardType" id="cardType" value="am"><img src="am.png" class="padR5"/>AmEx</span>
+						<span><input type="radio" name="cardType" id="cardType" value="master"><img src="master.png" class="padR5"/>MasterCard</span>
+						
+					</div>
+					<div class="input-container clearfix" >
+						<label for="CardNumber">Card Number</label>
+						<input type="text" id="CardNumber" name="CardNumber" />
+					</div>
+					<div class="input-container clearfix" >
+						<label for="SecurityCode">Security Code</label>
+						<input type="text" id="SecurityCode" name="SecurityCode" />
+					</div>
+					<div class="input-container clearfix" >
+						<label for="NameCard">Name on Card</label>
+						<input type="text" id="NameCard" name="NameCard" placeholder="exact name as on card"/>
+					</div>
+
+					<input type="submit" id="submit" name="submit" value="BUY IT!"/>
+				</form>
+				
+			</div>
+		</body>
+
+	</html>
